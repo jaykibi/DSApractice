@@ -11,6 +11,7 @@ def delete_duplicates(A: List[int]) -> int:
     # edge cases: empty array, 1 element arrays
     if not A:
         return 0
+    
 
     write_index = 1
     for i in range(len(A)):
